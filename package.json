@@ -1,0 +1,10 @@
+{
+  "name": "neon-fist",
+  "version": "2.5.0",
+  "private": true,
+  "type": "module",
+  "description": "像素街机格斗 · 单人 / 局域网 / 训练场",
+  "scripts": { "check:config": "node scripts/check-config.mjs", "start": "node server.mjs", "test": "node --test tests/*.test.mjs" },
+  "dependencies": { "ws": "^8.18.3" },
+  "engines": { "node": ">=22" }
+}
